@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.countdown {
+    margin-bottom: 40px;
+    font-size:  100px;
+}
+.btn {
+    display: block;
+    padding: 20px 30px;
+    border: 0;
+    background: cornflowerblue;
+    font-size: 20px;
+    color: black;
+    border-radius: 4px;
+}
