@@ -10,13 +10,13 @@ let window
 
 app.on('ready', _ => {
     window = new BrowserWindow({
-        height: 400,
-        width: 400,
+        height: 800,
+        width: 800,
         webPreferences: { // change default behavior
             nodeIntegration: true
         }
     })
-    window.loadURL(`file://${__dirname}/countdown.html`)
+    window.loadURL(`file://${__dirname}/index.html`)
 
 
     window.on('closed', _=> {
